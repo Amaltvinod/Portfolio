@@ -8,6 +8,8 @@ export const Wrapper=styled.div`
       align-items:center;
       justify-content:flex-start;
       padding-top:5em;
+      color:#F5F5F5;
+      white-space:nowrap;
       img{
         border-radius:50%;
         max-width:200px;
@@ -19,9 +21,11 @@ export const Wrapper=styled.div`
          color:white;
          width: 11em;
          height: 3.5em;
-         border-radius:5%;
+         border-radius:20px 20px 20px 20px;
          border:1px solid white;
          font-weight:bold;
+         color:"#ECECEC"
+         font-size:2em;
       }
       button:hover{
         background-color:white;
@@ -32,10 +36,12 @@ export const Wrapper=styled.div`
         h3{
             padding-bottom:0.7em;
             font-size:1.8em;
+            color:"#F5F5F5"
         }
         p{
 
             margin-left:2em;
+            color:"#B2B2B2"
         }
       }
 `
