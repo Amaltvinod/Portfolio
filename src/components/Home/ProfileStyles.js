@@ -21,11 +21,12 @@ export const Wrapper=styled.div`
          height: 3.5em;
          border-radius:5%;
          border:1px solid white;
-         font-weight:medium;
+         font-weight:bold;
       }
       button:hover{
         background-color:white;
         color:#05AED8;
+    
       }
       .profile-details{
         h3{
@@ -33,6 +34,7 @@ export const Wrapper=styled.div`
             font-size:1.8em;
         }
         p{
+
             margin-left:2em;
         }
       }
